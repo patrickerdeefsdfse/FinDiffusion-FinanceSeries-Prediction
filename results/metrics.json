@@ -1,0 +1,48 @@
+{
+  "FinDiffusion": {
+    "discriminative_score": 0.5275,
+    "predictive_score": 1.4641575813293457,
+    "feature_corr_dist": 0.3134260388335429,
+    "mmd_rbf": Infinity,
+    "kurtosis": 9.148378037826028,
+    "skewness": 0.8315771184150661,
+    "vol_autocorr": 0.24933288563757214,
+    "var_1": -0.030791563764214516,
+    "es_1": -0.041610315442085266
+  },
+  "LSTM": {
+    "discriminative_score": 0.995,
+    "predictive_score": 1.5350631475448608,
+    "feature_corr_dist": 0.18258336855714258,
+    "mmd_rbf": Infinity,
+    "kurtosis": 8.875717782028516,
+    "skewness": -0.5908663906843851,
+    "vol_autocorr": 0.45758114912349596,
+    "var_1": -0.020855803955346346,
+    "es_1": -0.028608281165361404
+  },
+  "VAE": {
+    "discriminative_score": 1.0,
+    "predictive_score": 0.6434088945388794,
+    "feature_corr_dist": 0.1805727784417381,
+    "mmd_rbf": Infinity,
+    "kurtosis": 20.387565225014665,
+    "skewness": 2.8145055667533105,
+    "vol_autocorr": 0.9584022635192117,
+    "var_1": 0.00034655760187888516,
+    "es_1": 5.929623875999823e-05
+  },
+  "Forecast": {
+    "obs_ratio": 0.5,
+    "forecast_mae": 2568630.0,
+    "forecast_rmse": 11711006.0,
+    "forecast_feature": "Close",
+    "forecast_mae_feature": 91.1160659790039,
+    "forecast_rmse_feature": 94.3511734008789,
+    "forecast_interval": 0.9,
+    "forecast_picp": 0.12704761904761905,
+    "forecast_pinaw": 1154775.601390504,
+    "forecast_picp_feature": 0.0,
+    "forecast_pinaw_feature": 10.365099562708536
+  }
+}

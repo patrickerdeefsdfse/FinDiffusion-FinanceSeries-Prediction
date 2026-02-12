@@ -1,0 +1,14 @@
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# training files
+checkpoints/
+data_cache/
+
+# OS
+.DS_Store
+Thumbs.db
