@@ -8,6 +8,8 @@ __pycache__/
 # training files
 checkpoints/
 data_cache/
+results/*
+!results/*.png
 
 # OS
 .DS_Store
